@@ -1,0 +1,1034 @@
+[2025-10-17 12:03:22] local.DEBUG: From: customer <customer@gmail.com>
+To: downGrade <vasic98467@anyqx.com>
+Subject: Item Purchase Notifications
+MIME-Version: 1.0
+Date: Fri, 17 Oct 2025 12:03:22 +0000
+Message-ID: <cfb710430b71a42c3a07352b0009cfe6@gmail.com>
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Item Purchase Notifications</title>
+</head>
+<body class="preload dashboard-upload">
+<h3>Thank you for your order</h3>
+<p><strong>Buyer Details</strong>&nbsp;</p>
+<p>Name : customer</p>
+<p>Email : customer@gmail.com</p>
+<p><strong>Order Details</strong></p>
+<p>Order ID : #335585</p>
+<p>Amount : USD 114.5</p>
+<p>Download File : http://localhost/downgrade/download-file/eyJpdiI6ImZ0cWhHUysrTEdiZWJIeXNiQnI3ckE9PSIsInZhbHVlIjoicjdDalFkOW9lMkV4SUFuejM4RjBzUVlwaVk2QzdNU2NYQWxZdnNJM1VtYUt2UjIyV2tENTl4MnpUOEpsRy8xSCIsIm1hYyI6ImNlMTY0MGIyYTY2MDlmNTQyNDFkNTQzMzBiMTM0NWZhODhhYWRiYmY4YWM2NmZmZWViMmE2MzBlNDhhYjk5MWIiLCJ0YWciOiIifQ==<br/><br/>http://localhost/downgrade/download-file/eyJpdiI6IkNzaDFTdi8zRFArVWRSdEpaSTh6MlE9PSIsInZhbHVlIjoiMlEwekdYNGUybjBPV2hsaWZQK1V5WjJicTJyd01LSlBod0QvYzhUdU9hWWVPaG1WaDNwUkNlK1pyZXFESWZMcCIsIm1hYyI6IjY4ZGI5ZDgxM2IzZmU3NjI3ZWI4YTU3YzU0MDMzN2Y1N2MxYjU4ZDVlMjVjZTBhNTAyNzRkZDc2ZDM0YmQ1YjEiLCJ0YWciOiIifQ==<br/><br/></p></body>
+</html>  
+[2025-10-17 12:03:22] local.DEBUG: From: downGrade <vasic98467@anyqx.com>
+To: customer <customer@gmail.com>
+Subject: Item Purchase Notifications
+MIME-Version: 1.0
+Date: Fri, 17 Oct 2025 12:03:22 +0000
+Message-ID: <177033277048b8f2055daff3d1a1550a@anyqx.com>
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Item Purchase Notifications</title>
+</head>
+<body class="preload dashboard-upload">
+<h3>Thank you for your order</h3>
+<p><strong>Buyer Details</strong>&nbsp;</p>
+<p>Name : customer</p>
+<p>Email : customer@gmail.com</p>
+<p><strong>Order Details</strong></p>
+<p>Order ID : #335585</p>
+<p>Amount : USD 114.5</p>
+<p>Download File : http://localhost/downgrade/download-file/eyJpdiI6ImZ0cWhHUysrTEdiZWJIeXNiQnI3ckE9PSIsInZhbHVlIjoicjdDalFkOW9lMkV4SUFuejM4RjBzUVlwaVk2QzdNU2NYQWxZdnNJM1VtYUt2UjIyV2tENTl4MnpUOEpsRy8xSCIsIm1hYyI6ImNlMTY0MGIyYTY2MDlmNTQyNDFkNTQzMzBiMTM0NWZhODhhYWRiYmY4YWM2NmZmZWViMmE2MzBlNDhhYjk5MWIiLCJ0YWciOiIifQ==<br/><br/>http://localhost/downgrade/download-file/eyJpdiI6IkNzaDFTdi8zRFArVWRSdEpaSTh6MlE9PSIsInZhbHVlIjoiMlEwekdYNGUybjBPV2hsaWZQK1V5WjJicTJyd01LSlBod0QvYzhUdU9hWWVPaG1WaDNwUkNlK1pyZXFESWZMcCIsIm1hYyI6IjY4ZGI5ZDgxM2IzZmU3NjI3ZWI4YTU3YzU0MDMzN2Y1N2MxYjU4ZDVlMjVjZTBhNTAyNzRkZDc2ZDM0YmQ1YjEiLCJ0YWciOiIifQ==<br/><br/></p></body>
+</html>  
+[2025-10-17 12:03:23] local.ERROR: The payload is invalid. {"userId":7,"exception":"[object] (Illuminate\\Contracts\\Encryption\\DecryptException(code: 0): The payload is invalid. at F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Encryption\\Encrypter.php:245)
+[stacktrace]
+#0 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Encryption\\Encrypter.php(158): Illuminate\\Encryption\\Encrypter->getJsonPayload(NULL)
+#1 F:\\xampp\\htdocs\\downgrade\\app\\Http\\Controllers\\ProductController.php(1524): Illuminate\\Encryption\\Encrypter->decrypt('serviceworker.j...')
+#2 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): DownGrade\\Http\\Controllers\\ProductController->stripe_success('serviceworker.j...', Object(Illuminate\\Http\\Request))
+#3 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ControllerDispatcher.php(44): Illuminate\\Routing\\Controller->callAction('stripe_success', Array)
+#4 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(266): Illuminate\\Routing\\ControllerDispatcher->dispatch(Object(Illuminate\\Routing\\Route), Object(DownGrade\\Http\\Controllers\\ProductController), 'stripe_success')
+#5 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(212): Illuminate\\Routing\\Route->runController()
+#6 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(808): Illuminate\\Routing\\Route->run()
+#7 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(170): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#8 F:\\xampp\\htdocs\\downgrade\\app\\Http\\Middleware\\HtmlMinifier.php(20): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#9 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): DownGrade\\Http\\Middleware\\HtmlMinifier->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#10 F:\\xampp\\htdocs\\downgrade\\app\\Http\\Middleware\\XSS.php(24): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#11 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): DownGrade\\Http\\Middleware\\XSS->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#12 F:\\xampp\\htdocs\\downgrade\\app\\Http\\Middleware\\Localization.php(26): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#13 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): DownGrade\\Http\\Middleware\\Localization->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#14 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(51): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#15 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#16 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Auth\\Middleware\\Authenticate.php(64): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#17 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Auth\\Middleware\\Authenticate->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#18 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(88): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#19 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#20 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#21 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#22 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(121): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#23 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\Store), Object(Closure))
+#24 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#25 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#26 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#27 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(75): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#28 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#29 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(127): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#30 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(807): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#31 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(786): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#32 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(750): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#33 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(739): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#34 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(201): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#35 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(170): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#36 F:\\xampp\\htdocs\\downgrade\\app\\Http\\Middleware\\FrameHeadersMiddleware.php(20): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#37 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): DownGrade\\Http\\Middleware\\FrameHeadersMiddleware->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#38 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(58): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#39 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#40 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#41 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#42 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#43 F:\\xampp\\htdocs\\downgrade\\app\\Http\\Middleware\\CheckReferral.php(20): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#44 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): DownGrade\\Http\\Middleware\\CheckReferral->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#45 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#46 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(51): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#47 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#48 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#49 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#50 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(110): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#51 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#52 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(127): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#53 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(176): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#54 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(145): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#55 F:\\xampp\\htdocs\\downgrade\\index.php(53): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#56 {main}
+"} 
+[2025-10-17 12:15:46] local.DEBUG: From: customer <customer@gmail.com>
+To: downGrade <vasic98467@anyqx.com>
+Subject: Item Purchase Notifications
+MIME-Version: 1.0
+Date: Fri, 17 Oct 2025 12:15:46 +0000
+Message-ID: <d29fece44184df5065f334e9662ffa04@gmail.com>
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Item Purchase Notifications</title>
+</head>
+<body class="preload dashboard-upload">
+<h3>Thank you for your order</h3>
+<p><strong>Buyer Details</strong>&nbsp;</p>
+<p>Name : customer</p>
+<p>Email : customer@gmail.com</p>
+<p><strong>Order Details</strong></p>
+<p>Order ID : #335585</p>
+<p>Amount : USD 114.5</p>
+<p>Download File : http://localhost/downgrade/download-file/eyJpdiI6Ing2TFh6a2N4SjFzQzFaajdIT3VhNlE9PSIsInZhbHVlIjoiQWlURXR6blRSaTdzbFl6a3NiMjhZbTUxU1FaeGl4N0FnRTd0azJaQ3Y2aXROeGpoRStYdnFuVWVzQndIT0hsQiIsIm1hYyI6IjQ1ZGE2NGFjYmVjN2Y1ZmJjOGI4YjM3NzQ4NDk0MzNiOGUyMjU5NmUzZTg3YmY1NGYwNDBiNTYyMGE0NWNmNTEiLCJ0YWciOiIifQ==<br/><br/>http://localhost/downgrade/download-file/eyJpdiI6Ing1UUZJbGNpMHUrRXB6eDlsR0dDeVE9PSIsInZhbHVlIjoiYkoxN01yamdaZzB2M21ESFM2VndSMzREUGo2TWl0bk1oVmQ4OEVVQ2h3UmFweE9SZUQ5QXR4WndLMkdocXZORiIsIm1hYyI6ImUxMGVjNTljYjVkNDdiMTBkZTc1ZWYwM2ZjODYxMjAzOGFjZDk1YWY0ZTY4M2E2ZmViYTcwMTQ5ZmNjYzQzZTEiLCJ0YWciOiIifQ==<br/><br/></p></body>
+</html>  
+[2025-10-17 12:15:46] local.DEBUG: From: downGrade <vasic98467@anyqx.com>
+To: customer <customer@gmail.com>
+Subject: Item Purchase Notifications
+MIME-Version: 1.0
+Date: Fri, 17 Oct 2025 12:15:46 +0000
+Message-ID: <76abd6268cd5490038def2527861beb1@anyqx.com>
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Item Purchase Notifications</title>
+</head>
+<body class="preload dashboard-upload">
+<h3>Thank you for your order</h3>
+<p><strong>Buyer Details</strong>&nbsp;</p>
+<p>Name : customer</p>
+<p>Email : customer@gmail.com</p>
+<p><strong>Order Details</strong></p>
+<p>Order ID : #335585</p>
+<p>Amount : USD 114.5</p>
+<p>Download File : http://localhost/downgrade/download-file/eyJpdiI6Ing2TFh6a2N4SjFzQzFaajdIT3VhNlE9PSIsInZhbHVlIjoiQWlURXR6blRSaTdzbFl6a3NiMjhZbTUxU1FaeGl4N0FnRTd0azJaQ3Y2aXROeGpoRStYdnFuVWVzQndIT0hsQiIsIm1hYyI6IjQ1ZGE2NGFjYmVjN2Y1ZmJjOGI4YjM3NzQ4NDk0MzNiOGUyMjU5NmUzZTg3YmY1NGYwNDBiNTYyMGE0NWNmNTEiLCJ0YWciOiIifQ==<br/><br/>http://localhost/downgrade/download-file/eyJpdiI6Ing1UUZJbGNpMHUrRXB6eDlsR0dDeVE9PSIsInZhbHVlIjoiYkoxN01yamdaZzB2M21ESFM2VndSMzREUGo2TWl0bk1oVmQ4OEVVQ2h3UmFweE9SZUQ5QXR4WndLMkdocXZORiIsIm1hYyI6ImUxMGVjNTljYjVkNDdiMTBkZTc1ZWYwM2ZjODYxMjAzOGFjZDk1YWY0ZTY4M2E2ZmViYTcwMTQ5ZmNjYzQzZTEiLCJ0YWciOiIifQ==<br/><br/></p></body>
+</html>  
+[2025-10-17 12:15:47] local.ERROR: The payload is invalid. {"userId":7,"exception":"[object] (Illuminate\\Contracts\\Encryption\\DecryptException(code: 0): The payload is invalid. at F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Encryption\\Encrypter.php:245)
+[stacktrace]
+#0 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Encryption\\Encrypter.php(158): Illuminate\\Encryption\\Encrypter->getJsonPayload(NULL)
+#1 F:\\xampp\\htdocs\\downgrade\\app\\Http\\Controllers\\ProductController.php(1524): Illuminate\\Encryption\\Encrypter->decrypt('serviceworker.j...')
+#2 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): DownGrade\\Http\\Controllers\\ProductController->stripe_success('serviceworker.j...', Object(Illuminate\\Http\\Request))
+#3 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ControllerDispatcher.php(44): Illuminate\\Routing\\Controller->callAction('stripe_success', Array)
+#4 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(266): Illuminate\\Routing\\ControllerDispatcher->dispatch(Object(Illuminate\\Routing\\Route), Object(DownGrade\\Http\\Controllers\\ProductController), 'stripe_success')
+#5 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(212): Illuminate\\Routing\\Route->runController()
+#6 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(808): Illuminate\\Routing\\Route->run()
+#7 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(170): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#8 F:\\xampp\\htdocs\\downgrade\\app\\Http\\Middleware\\HtmlMinifier.php(20): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#9 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): DownGrade\\Http\\Middleware\\HtmlMinifier->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#10 F:\\xampp\\htdocs\\downgrade\\app\\Http\\Middleware\\XSS.php(24): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#11 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): DownGrade\\Http\\Middleware\\XSS->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#12 F:\\xampp\\htdocs\\downgrade\\app\\Http\\Middleware\\Localization.php(26): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#13 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): DownGrade\\Http\\Middleware\\Localization->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#14 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(51): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#15 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#16 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Auth\\Middleware\\Authenticate.php(64): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#17 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Auth\\Middleware\\Authenticate->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#18 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(88): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#19 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#20 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#21 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#22 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(121): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#23 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\Store), Object(Closure))
+#24 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#25 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#26 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#27 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(75): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#28 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#29 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(127): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#30 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(807): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#31 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(786): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#32 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(750): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#33 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(739): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#34 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(201): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#35 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(170): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#36 F:\\xampp\\htdocs\\downgrade\\app\\Http\\Middleware\\FrameHeadersMiddleware.php(20): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#37 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): DownGrade\\Http\\Middleware\\FrameHeadersMiddleware->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#38 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(58): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#39 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#40 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#41 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#42 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#43 F:\\xampp\\htdocs\\downgrade\\app\\Http\\Middleware\\CheckReferral.php(20): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#44 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): DownGrade\\Http\\Middleware\\CheckReferral->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#45 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#46 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(51): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#47 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#48 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#49 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#50 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(110): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#51 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#52 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(127): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#53 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(176): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#54 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(145): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#55 F:\\xampp\\htdocs\\downgrade\\index.php(53): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#56 {main}
+"} 
+[2025-10-17 12:21:32] local.ERROR: The payload is invalid. {"userId":7,"exception":"[object] (Illuminate\\Contracts\\Encryption\\DecryptException(code: 0): The payload is invalid. at F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Encryption\\Encrypter.php:245)
+[stacktrace]
+#0 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Encryption\\Encrypter.php(158): Illuminate\\Encryption\\Encrypter->getJsonPayload(NULL)
+#1 F:\\xampp\\htdocs\\downgrade\\app\\Http\\Controllers\\ProductController.php(1524): Illuminate\\Encryption\\Encrypter->decrypt('pi_1SJCelDmtBy1...')
+#2 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): DownGrade\\Http\\Controllers\\ProductController->stripe_success('pi_1SJCelDmtBy1...', Object(Illuminate\\Http\\Request))
+#3 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ControllerDispatcher.php(44): Illuminate\\Routing\\Controller->callAction('stripe_success', Array)
+#4 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(266): Illuminate\\Routing\\ControllerDispatcher->dispatch(Object(Illuminate\\Routing\\Route), Object(DownGrade\\Http\\Controllers\\ProductController), 'stripe_success')
+#5 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(212): Illuminate\\Routing\\Route->runController()
+#6 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(808): Illuminate\\Routing\\Route->run()
+#7 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(170): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#8 F:\\xampp\\htdocs\\downgrade\\app\\Http\\Middleware\\HtmlMinifier.php(20): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#9 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): DownGrade\\Http\\Middleware\\HtmlMinifier->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#10 F:\\xampp\\htdocs\\downgrade\\app\\Http\\Middleware\\XSS.php(24): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#11 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): DownGrade\\Http\\Middleware\\XSS->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#12 F:\\xampp\\htdocs\\downgrade\\app\\Http\\Middleware\\Localization.php(26): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#13 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): DownGrade\\Http\\Middleware\\Localization->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#14 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(51): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#15 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#16 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Auth\\Middleware\\Authenticate.php(64): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#17 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Auth\\Middleware\\Authenticate->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#18 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(88): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#19 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#20 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#21 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#22 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(121): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#23 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\Store), Object(Closure))
+#24 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#25 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#26 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#27 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(75): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#28 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#29 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(127): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#30 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(807): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#31 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(786): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#32 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(750): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#33 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(739): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#34 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(201): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#35 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(170): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#36 F:\\xampp\\htdocs\\downgrade\\app\\Http\\Middleware\\FrameHeadersMiddleware.php(20): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#37 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): DownGrade\\Http\\Middleware\\FrameHeadersMiddleware->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#38 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(58): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#39 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#40 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#41 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#42 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#43 F:\\xampp\\htdocs\\downgrade\\app\\Http\\Middleware\\CheckReferral.php(20): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#44 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): DownGrade\\Http\\Middleware\\CheckReferral->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#45 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#46 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(51): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#47 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#48 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#49 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#50 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(110): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#51 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#52 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(127): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#53 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(176): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#54 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(145): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#55 F:\\xampp\\htdocs\\downgrade\\index.php(53): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#56 {main}
+"} 
+[2025-10-17 12:26:13] local.DEBUG: From: customer <customer@gmail.com>
+To: downGrade <vasic98467@anyqx.com>
+Subject: Item Purchase Notifications
+MIME-Version: 1.0
+Date: Fri, 17 Oct 2025 12:26:13 +0000
+Message-ID: <6f21c7e095d28b3d6a5e1ecf6568a3f2@gmail.com>
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Item Purchase Notifications</title>
+</head>
+<body class="preload dashboard-upload">
+<h3>Thank you for your order</h3>
+<p><strong>Buyer Details</strong>&nbsp;</p>
+<p>Name : customer</p>
+<p>Email : customer@gmail.com</p>
+<p><strong>Order Details</strong></p>
+<p>Order ID : #179380</p>
+<p>Amount : USD 9.5</p>
+<p>Download File : http://localhost/downgrade/download-file/eyJpdiI6ImRxYkhoRmVFM0tTNEtpRGJRZ3dDMHc9PSIsInZhbHVlIjoiaE1DZzVMdEtsakxkb0pGVUFhd3ZIYUx0NzhqRndXaGxBVXgxWlk4SVcrRHk2emkzazBMUmlVOXZEaHVaZnFuaSIsIm1hYyI6IjJlOTdmMDQxMzA5NWQ2NDJhMjZiZDNlOWZkODU4MWIzNjE0N2FiODY2YzczZjk1YTVmZjFjZjIwZTQ3NzE0NDQiLCJ0YWciOiIifQ==<br/><br/></p></body>
+</html>  
+[2025-10-17 12:26:13] local.DEBUG: From: downGrade <vasic98467@anyqx.com>
+To: customer <customer@gmail.com>
+Subject: Item Purchase Notifications
+MIME-Version: 1.0
+Date: Fri, 17 Oct 2025 12:26:13 +0000
+Message-ID: <a8759ee54c1e793075c5f3d1861ce725@anyqx.com>
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Item Purchase Notifications</title>
+</head>
+<body class="preload dashboard-upload">
+<h3>Thank you for your order</h3>
+<p><strong>Buyer Details</strong>&nbsp;</p>
+<p>Name : customer</p>
+<p>Email : customer@gmail.com</p>
+<p><strong>Order Details</strong></p>
+<p>Order ID : #179380</p>
+<p>Amount : USD 9.5</p>
+<p>Download File : http://localhost/downgrade/download-file/eyJpdiI6ImRxYkhoRmVFM0tTNEtpRGJRZ3dDMHc9PSIsInZhbHVlIjoiaE1DZzVMdEtsakxkb0pGVUFhd3ZIYUx0NzhqRndXaGxBVXgxWlk4SVcrRHk2emkzazBMUmlVOXZEaHVaZnFuaSIsIm1hYyI6IjJlOTdmMDQxMzA5NWQ2NDJhMjZiZDNlOWZkODU4MWIzNjE0N2FiODY2YzczZjk1YTVmZjFjZjIwZTQ3NzE0NDQiLCJ0YWciOiIifQ==<br/><br/></p></body>
+</html>  
+[2025-10-17 12:26:14] local.DEBUG: From: customer <customer@gmail.com>
+To: downGrade <vasic98467@anyqx.com>
+Subject: Item Purchase Notifications
+MIME-Version: 1.0
+Date: Fri, 17 Oct 2025 12:26:14 +0000
+Message-ID: <c36cbd4084914a7b289283dc56ad98f8@gmail.com>
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Item Purchase Notifications</title>
+</head>
+<body class="preload dashboard-upload">
+<h3>Thank you for your order</h3>
+<p><strong>Buyer Details</strong>&nbsp;</p>
+<p>Name : customer</p>
+<p>Email : customer@gmail.com</p>
+<p><strong>Order Details</strong></p>
+<p>Order ID : #179380</p>
+<p>Amount : USD 9.5</p>
+<p>Download File : http://localhost/downgrade/download-file/eyJpdiI6IlN6WTVXLzlVSjBtRXpJcnF1bGlzclE9PSIsInZhbHVlIjoiNEltU2tLY1ZDQkZzM2EwbUNXK1JYUEZEWEFFbHY2eVdRV0VTRUlJY3FYK2M1ZXZYZFN4RFF6bkhpVGlhQUhyciIsIm1hYyI6IjY5ZjU4ZDViZmY3YzlhZDQ5NWVhOGFkOTgzZWQzNTg0MGMxOWM1NDE3YmQ1ZTVmMzcwMzA1NmQ0ZTk0ZTI0ZTEiLCJ0YWciOiIifQ==<br/><br/></p></body>
+</html>  
+[2025-10-17 12:26:14] local.DEBUG: From: downGrade <vasic98467@anyqx.com>
+To: customer <customer@gmail.com>
+Subject: Item Purchase Notifications
+MIME-Version: 1.0
+Date: Fri, 17 Oct 2025 12:26:14 +0000
+Message-ID: <6cc6c774421ddcca4a51bef95b49ca55@anyqx.com>
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Item Purchase Notifications</title>
+</head>
+<body class="preload dashboard-upload">
+<h3>Thank you for your order</h3>
+<p><strong>Buyer Details</strong>&nbsp;</p>
+<p>Name : customer</p>
+<p>Email : customer@gmail.com</p>
+<p><strong>Order Details</strong></p>
+<p>Order ID : #179380</p>
+<p>Amount : USD 9.5</p>
+<p>Download File : http://localhost/downgrade/download-file/eyJpdiI6IlN6WTVXLzlVSjBtRXpJcnF1bGlzclE9PSIsInZhbHVlIjoiNEltU2tLY1ZDQkZzM2EwbUNXK1JYUEZEWEFFbHY2eVdRV0VTRUlJY3FYK2M1ZXZYZFN4RFF6bkhpVGlhQUhyciIsIm1hYyI6IjY5ZjU4ZDViZmY3YzlhZDQ5NWVhOGFkOTgzZWQzNTg0MGMxOWM1NDE3YmQ1ZTVmMzcwMzA1NmQ0ZTk0ZTI0ZTEiLCJ0YWciOiIifQ==<br/><br/></p></body>
+</html>  
+[2025-10-17 12:57:15] local.DEBUG: From: customer <customer@gmail.com>
+To: downGrade <vasic98467@anyqx.com>
+Subject: Item Purchase Notifications
+MIME-Version: 1.0
+Date: Fri, 17 Oct 2025 12:57:15 +0000
+Message-ID: <8776384a28428d7e44ac1ffa4b17e0e4@gmail.com>
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Item Purchase Notifications</title>
+</head>
+<body class="preload dashboard-upload">
+<h3>Thank you for your order</h3>
+<p><strong>Buyer Details</strong>&nbsp;</p>
+<p>Name : customer</p>
+<p>Email : customer@gmail.com</p>
+<p><strong>Order Details</strong></p>
+<p>Order ID : #886661</p>
+<p>Amount : USD 9.5</p>
+<p>Download File : http://localhost/downgrade/download-file/eyJpdiI6ImdRbkxsU29pcWlESjJFUUt6enMzN0E9PSIsInZhbHVlIjoiQ1l3NGVjNjdtUXVTcENsS2x1RkJNd1BtVm9Zc3g5cXZpQWt3TStUK1RIQTRGTVhZRDNCSTg0d0cvY2pIb1hPUyIsIm1hYyI6IjQ5Nzg4NDliYzg5ZmEyZTQ0NDRiOGE0MzUyNmQ5YzNiOGVkODA2ZDQxMGJlMDg2ZjM4MDhiMmQwMDIyMGRmY2UiLCJ0YWciOiIifQ==<br/><br/></p></body>
+</html>  
+[2025-10-17 12:57:15] local.DEBUG: From: downGrade <vasic98467@anyqx.com>
+To: customer <customer@gmail.com>
+Subject: Item Purchase Notifications
+MIME-Version: 1.0
+Date: Fri, 17 Oct 2025 12:57:15 +0000
+Message-ID: <60819deaa12f321f5a72c8246fb570af@anyqx.com>
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Item Purchase Notifications</title>
+</head>
+<body class="preload dashboard-upload">
+<h3>Thank you for your order</h3>
+<p><strong>Buyer Details</strong>&nbsp;</p>
+<p>Name : customer</p>
+<p>Email : customer@gmail.com</p>
+<p><strong>Order Details</strong></p>
+<p>Order ID : #886661</p>
+<p>Amount : USD 9.5</p>
+<p>Download File : http://localhost/downgrade/download-file/eyJpdiI6ImdRbkxsU29pcWlESjJFUUt6enMzN0E9PSIsInZhbHVlIjoiQ1l3NGVjNjdtUXVTcENsS2x1RkJNd1BtVm9Zc3g5cXZpQWt3TStUK1RIQTRGTVhZRDNCSTg0d0cvY2pIb1hPUyIsIm1hYyI6IjQ5Nzg4NDliYzg5ZmEyZTQ0NDRiOGE0MzUyNmQ5YzNiOGVkODA2ZDQxMGJlMDg2ZjM4MDhiMmQwMDIyMGRmY2UiLCJ0YWciOiIifQ==<br/><br/></p></body>
+</html>  
+[2025-10-17 12:57:39] local.DEBUG: From: customer <customer@gmail.com>
+To: downGrade <vasic98467@anyqx.com>
+Subject: Item Purchase Notifications
+MIME-Version: 1.0
+Date: Fri, 17 Oct 2025 12:57:39 +0000
+Message-ID: <93483169ceb0afb7702a941cc26af31c@gmail.com>
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Item Purchase Notifications</title>
+</head>
+<body class="preload dashboard-upload">
+<h3>Thank you for your order</h3>
+<p><strong>Buyer Details</strong>&nbsp;</p>
+<p>Name : customer</p>
+<p>Email : customer@gmail.com</p>
+<p><strong>Order Details</strong></p>
+<p>Order ID : #886661</p>
+<p>Amount : USD 9.5</p>
+<p>Download File : http://localhost/downgrade/download-file/eyJpdiI6IjM4ZlRiT1lSZ2QrNWZFVFprOXhDeFE9PSIsInZhbHVlIjoicGN5ZUF3YmNKcmE4OHlvTnF4RVlyb041QkpxR0M2SjFxMG1naEdCZG56TmMxUGl5SXcyaVFsTzYyL0M2bGJTNCIsIm1hYyI6ImIzYTFmMDAxODNhMTlmYjVjNmQxNjM5NzAzY2JhNzFlYThlZTEwMjlmZGJkZDczYWYwYTZmZmZiMTM0ODI3MmIiLCJ0YWciOiIifQ==<br/><br/></p></body>
+</html>  
+[2025-10-17 12:57:39] local.DEBUG: From: downGrade <vasic98467@anyqx.com>
+To: customer <customer@gmail.com>
+Subject: Item Purchase Notifications
+MIME-Version: 1.0
+Date: Fri, 17 Oct 2025 12:57:39 +0000
+Message-ID: <d1bcc72015a65b21131ba8fe1e501cc7@anyqx.com>
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Item Purchase Notifications</title>
+</head>
+<body class="preload dashboard-upload">
+<h3>Thank you for your order</h3>
+<p><strong>Buyer Details</strong>&nbsp;</p>
+<p>Name : customer</p>
+<p>Email : customer@gmail.com</p>
+<p><strong>Order Details</strong></p>
+<p>Order ID : #886661</p>
+<p>Amount : USD 9.5</p>
+<p>Download File : http://localhost/downgrade/download-file/eyJpdiI6IjM4ZlRiT1lSZ2QrNWZFVFprOXhDeFE9PSIsInZhbHVlIjoicGN5ZUF3YmNKcmE4OHlvTnF4RVlyb041QkpxR0M2SjFxMG1naEdCZG56TmMxUGl5SXcyaVFsTzYyL0M2bGJTNCIsIm1hYyI6ImIzYTFmMDAxODNhMTlmYjVjNmQxNjM5NzAzY2JhNzFlYThlZTEwMjlmZGJkZDczYWYwYTZmZmZiMTM0ODI3MmIiLCJ0YWciOiIifQ==<br/><br/></p></body>
+</html>  
+[2025-10-17 12:57:41] local.DEBUG: From: customer <customer@gmail.com>
+To: downGrade <vasic98467@anyqx.com>
+Subject: Item Purchase Notifications
+MIME-Version: 1.0
+Date: Fri, 17 Oct 2025 12:57:41 +0000
+Message-ID: <b5654cff8e2c7dd0cac24f80b0f51289@gmail.com>
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Item Purchase Notifications</title>
+</head>
+<body class="preload dashboard-upload">
+<h3>Thank you for your order</h3>
+<p><strong>Buyer Details</strong>&nbsp;</p>
+<p>Name : customer</p>
+<p>Email : customer@gmail.com</p>
+<p><strong>Order Details</strong></p>
+<p>Order ID : #886661</p>
+<p>Amount : USD 9.5</p>
+<p>Download File : http://localhost/downgrade/download-file/eyJpdiI6Ii82aFE0NUJWdjVnZ1FWcWxFQTN1Unc9PSIsInZhbHVlIjoicnZKUVp1VDJzUnRFWHF6c1ppWU5IbHo1NUcwZE9YclJ5WnJSYnNDTEZWVzdpRXVFL0xYRUtldVlmcXBKWDdDaCIsIm1hYyI6IjI2ZDgwMGM3NTk2MzUwMmJhZDc2NzM3MGQzNDIwYjdjZWQwZmMxY2U2MjI0NTg0MDg5YzYxMzk2NTZkYmMwY2IiLCJ0YWciOiIifQ==<br/><br/></p></body>
+</html>  
+[2025-10-17 12:57:41] local.DEBUG: From: downGrade <vasic98467@anyqx.com>
+To: customer <customer@gmail.com>
+Subject: Item Purchase Notifications
+MIME-Version: 1.0
+Date: Fri, 17 Oct 2025 12:57:41 +0000
+Message-ID: <6e870fe8e2a9831698bf223c7b6ac0ed@anyqx.com>
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Item Purchase Notifications</title>
+</head>
+<body class="preload dashboard-upload">
+<h3>Thank you for your order</h3>
+<p><strong>Buyer Details</strong>&nbsp;</p>
+<p>Name : customer</p>
+<p>Email : customer@gmail.com</p>
+<p><strong>Order Details</strong></p>
+<p>Order ID : #886661</p>
+<p>Amount : USD 9.5</p>
+<p>Download File : http://localhost/downgrade/download-file/eyJpdiI6Ii82aFE0NUJWdjVnZ1FWcWxFQTN1Unc9PSIsInZhbHVlIjoicnZKUVp1VDJzUnRFWHF6c1ppWU5IbHo1NUcwZE9YclJ5WnJSYnNDTEZWVzdpRXVFL0xYRUtldVlmcXBKWDdDaCIsIm1hYyI6IjI2ZDgwMGM3NTk2MzUwMmJhZDc2NzM3MGQzNDIwYjdjZWQwZmMxY2U2MjI0NTg0MDg5YzYxMzk2NTZkYmMwY2IiLCJ0YWciOiIifQ==<br/><br/></p></body>
+</html>  
+[2025-10-17 13:01:32] local.DEBUG: From: customer <customer@gmail.com>
+To: downGrade <vasic98467@anyqx.com>
+Subject: Item Purchase Notifications
+MIME-Version: 1.0
+Date: Fri, 17 Oct 2025 13:01:32 +0000
+Message-ID: <1fc0a578434dc16b3248e8bdee44e6b7@gmail.com>
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Item Purchase Notifications</title>
+</head>
+<body class="preload dashboard-upload">
+<h3>Thank you for your order</h3>
+<p><strong>Buyer Details</strong>&nbsp;</p>
+<p>Name : customer</p>
+<p>Email : customer@gmail.com</p>
+<p><strong>Order Details</strong></p>
+<p>Order ID : #886661</p>
+<p>Amount : USD 9.5</p>
+<p>Download File : http://localhost/downgrade/download-file/eyJpdiI6IjE1MG5COTBzYTRTbUxkKzY2NjFGNHc9PSIsInZhbHVlIjoiUlhhUmljYVlidHlreVpEMHk3OG1ueklnSlpwQUQrcnhMak12cENNR1B6VUxyeFpZc0pCcm5MSDVoejhNQkxsQSIsIm1hYyI6ImVhY2E4NWQ4Y2FhNzNkODdjYWYwYWIyMWJkMmM0ZTk4ZThmYTUwMTE0NjJkODM4YmNiNDE4NWRkNTBhNWFkMzUiLCJ0YWciOiIifQ==<br/><br/></p></body>
+</html>  
+[2025-10-17 13:01:32] local.DEBUG: From: downGrade <vasic98467@anyqx.com>
+To: customer <customer@gmail.com>
+Subject: Item Purchase Notifications
+MIME-Version: 1.0
+Date: Fri, 17 Oct 2025 13:01:32 +0000
+Message-ID: <225877354108490cc06bbd91755e021e@anyqx.com>
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Item Purchase Notifications</title>
+</head>
+<body class="preload dashboard-upload">
+<h3>Thank you for your order</h3>
+<p><strong>Buyer Details</strong>&nbsp;</p>
+<p>Name : customer</p>
+<p>Email : customer@gmail.com</p>
+<p><strong>Order Details</strong></p>
+<p>Order ID : #886661</p>
+<p>Amount : USD 9.5</p>
+<p>Download File : http://localhost/downgrade/download-file/eyJpdiI6IjE1MG5COTBzYTRTbUxkKzY2NjFGNHc9PSIsInZhbHVlIjoiUlhhUmljYVlidHlreVpEMHk3OG1ueklnSlpwQUQrcnhMak12cENNR1B6VUxyeFpZc0pCcm5MSDVoejhNQkxsQSIsIm1hYyI6ImVhY2E4NWQ4Y2FhNzNkODdjYWYwYWIyMWJkMmM0ZTk4ZThmYTUwMTE0NjJkODM4YmNiNDE4NWRkNTBhNWFkMzUiLCJ0YWciOiIifQ==<br/><br/></p></body>
+</html>  
+[2025-10-17 13:01:32] local.ERROR: View [stripe-success] not found. {"userId":7,"exception":"[object] (InvalidArgumentException(code: 0): View [stripe-success] not found. at F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\View\\FileViewFinder.php:139)
+[stacktrace]
+#0 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\View\\FileViewFinder.php(79): Illuminate\\View\\FileViewFinder->findInPaths('stripe-success', Array)
+#1 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Factory.php(151): Illuminate\\View\\FileViewFinder->find('stripe-success')
+#2 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(1062): Illuminate\\View\\Factory->make('stripe-success', Array, Array)
+#3 F:\\xampp\\htdocs\\downgrade\\app\\Http\\Controllers\\ProductController.php(1638): view('stripe-success')
+#4 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): DownGrade\\Http\\Controllers\\ProductController->stripe_success('eyJpdiI6IlZNbSs...', 'pi_1SJDAjDmtBy1...', Object(Illuminate\\Http\\Request))
+#5 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ControllerDispatcher.php(44): Illuminate\\Routing\\Controller->callAction('stripe_success', Array)
+#6 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(266): Illuminate\\Routing\\ControllerDispatcher->dispatch(Object(Illuminate\\Routing\\Route), Object(DownGrade\\Http\\Controllers\\ProductController), 'stripe_success')
+#7 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(212): Illuminate\\Routing\\Route->runController()
+#8 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(808): Illuminate\\Routing\\Route->run()
+#9 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(170): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#10 F:\\xampp\\htdocs\\downgrade\\app\\Http\\Middleware\\HtmlMinifier.php(20): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#11 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): DownGrade\\Http\\Middleware\\HtmlMinifier->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#12 F:\\xampp\\htdocs\\downgrade\\app\\Http\\Middleware\\XSS.php(24): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#13 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): DownGrade\\Http\\Middleware\\XSS->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#14 F:\\xampp\\htdocs\\downgrade\\app\\Http\\Middleware\\Localization.php(26): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#15 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): DownGrade\\Http\\Middleware\\Localization->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#16 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(51): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#17 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#18 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Auth\\Middleware\\Authenticate.php(64): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#19 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Auth\\Middleware\\Authenticate->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#20 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(88): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#21 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#22 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#23 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#24 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(121): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#25 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\Store), Object(Closure))
+#26 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#27 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#28 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#29 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(75): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#30 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#31 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(127): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#32 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(807): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#33 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(786): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#34 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(750): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#35 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(739): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#36 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(201): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#37 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(170): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#38 F:\\xampp\\htdocs\\downgrade\\app\\Http\\Middleware\\FrameHeadersMiddleware.php(20): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#39 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): DownGrade\\Http\\Middleware\\FrameHeadersMiddleware->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#40 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(58): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#41 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#42 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#43 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#44 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#45 F:\\xampp\\htdocs\\downgrade\\app\\Http\\Middleware\\CheckReferral.php(20): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#46 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): DownGrade\\Http\\Middleware\\CheckReferral->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#47 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#48 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(51): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#49 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#50 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#51 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#52 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(110): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#53 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#54 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(127): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#55 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(176): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#56 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(145): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#57 F:\\xampp\\htdocs\\downgrade\\index.php(53): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#58 {main}
+"} 
+[2025-10-17 13:02:34] local.DEBUG: From: customer <customer@gmail.com>
+To: downGrade <vasic98467@anyqx.com>
+Subject: Item Purchase Notifications
+MIME-Version: 1.0
+Date: Fri, 17 Oct 2025 13:02:34 +0000
+Message-ID: <5ab8a2acc4f7d296196dd550b0bbcce0@gmail.com>
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Item Purchase Notifications</title>
+</head>
+<body class="preload dashboard-upload">
+<h3>Thank you for your order</h3>
+<p><strong>Buyer Details</strong>&nbsp;</p>
+<p>Name : customer</p>
+<p>Email : customer@gmail.com</p>
+<p><strong>Order Details</strong></p>
+<p>Order ID : #886661</p>
+<p>Amount : USD 9.5</p>
+<p>Download File : http://localhost/downgrade/download-file/eyJpdiI6ImFDSit4b1ZaQ0FOaFo4RWxVQVRsZ0E9PSIsInZhbHVlIjoiN1lvdVV4STVxNlBYRFl0ZVRoUytEQ1cvUGtSRFZlVVJySVV0eWZER3haeGZpYUlDL20yVHZVUWtIcWNUL1ZuMSIsIm1hYyI6IjE4MTU3MzE5MGZmOWFmMmNkZTlhMjViZTM1OWYwZTgxZjU2YmM4Zjg2YTdlMjA0ZTA3MjMxZDRjOTZmYzA0NzEiLCJ0YWciOiIifQ==<br/><br/></p></body>
+</html>  
+[2025-10-17 13:02:34] local.DEBUG: From: downGrade <vasic98467@anyqx.com>
+To: customer <customer@gmail.com>
+Subject: Item Purchase Notifications
+MIME-Version: 1.0
+Date: Fri, 17 Oct 2025 13:02:34 +0000
+Message-ID: <0e998264502f4cf1649cadff810c4638@anyqx.com>
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Item Purchase Notifications</title>
+</head>
+<body class="preload dashboard-upload">
+<h3>Thank you for your order</h3>
+<p><strong>Buyer Details</strong>&nbsp;</p>
+<p>Name : customer</p>
+<p>Email : customer@gmail.com</p>
+<p><strong>Order Details</strong></p>
+<p>Order ID : #886661</p>
+<p>Amount : USD 9.5</p>
+<p>Download File : http://localhost/downgrade/download-file/eyJpdiI6ImFDSit4b1ZaQ0FOaFo4RWxVQVRsZ0E9PSIsInZhbHVlIjoiN1lvdVV4STVxNlBYRFl0ZVRoUytEQ1cvUGtSRFZlVVJySVV0eWZER3haeGZpYUlDL20yVHZVUWtIcWNUL1ZuMSIsIm1hYyI6IjE4MTU3MzE5MGZmOWFmMmNkZTlhMjViZTM1OWYwZTgxZjU2YmM4Zjg2YTdlMjA0ZTA3MjMxZDRjOTZmYzA0NzEiLCJ0YWciOiIifQ==<br/><br/></p></body>
+</html>  
+[2025-10-17 13:02:36] local.DEBUG: From: customer <customer@gmail.com>
+To: downGrade <vasic98467@anyqx.com>
+Subject: Item Purchase Notifications
+MIME-Version: 1.0
+Date: Fri, 17 Oct 2025 13:02:36 +0000
+Message-ID: <f69b548a3212bc7cea8af30b69f1babe@gmail.com>
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Item Purchase Notifications</title>
+</head>
+<body class="preload dashboard-upload">
+<h3>Thank you for your order</h3>
+<p><strong>Buyer Details</strong>&nbsp;</p>
+<p>Name : customer</p>
+<p>Email : customer@gmail.com</p>
+<p><strong>Order Details</strong></p>
+<p>Order ID : #886661</p>
+<p>Amount : USD 9.5</p>
+<p>Download File : http://localhost/downgrade/download-file/eyJpdiI6ImhjYTZIS3c0Ly93ZlZrTFhwVnBrV2c9PSIsInZhbHVlIjoiUWhxK0dZTEk0emFPOHB1UkpTZnhnSS9ScjcyQmpmTFh4MGNkS0QyNTg4Q2xhMk1qT2UxYkk2ZUlqYVRZcVMyZCIsIm1hYyI6IjAyZDMzNjIwZjBmNmQ2OGRkNTBjZjNmOTM3MjQ3YjhiN2E2Yjk5ODlhZDIzMDk0ZDkxMTc3NjEyMjA0NGFhOWMiLCJ0YWciOiIifQ==<br/><br/></p></body>
+</html>  
+[2025-10-17 13:02:36] local.DEBUG: From: downGrade <vasic98467@anyqx.com>
+To: customer <customer@gmail.com>
+Subject: Item Purchase Notifications
+MIME-Version: 1.0
+Date: Fri, 17 Oct 2025 13:02:36 +0000
+Message-ID: <1ff22874e1c39e9ac3a23725a31c6894@anyqx.com>
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Item Purchase Notifications</title>
+</head>
+<body class="preload dashboard-upload">
+<h3>Thank you for your order</h3>
+<p><strong>Buyer Details</strong>&nbsp;</p>
+<p>Name : customer</p>
+<p>Email : customer@gmail.com</p>
+<p><strong>Order Details</strong></p>
+<p>Order ID : #886661</p>
+<p>Amount : USD 9.5</p>
+<p>Download File : http://localhost/downgrade/download-file/eyJpdiI6ImhjYTZIS3c0Ly93ZlZrTFhwVnBrV2c9PSIsInZhbHVlIjoiUWhxK0dZTEk0emFPOHB1UkpTZnhnSS9ScjcyQmpmTFh4MGNkS0QyNTg4Q2xhMk1qT2UxYkk2ZUlqYVRZcVMyZCIsIm1hYyI6IjAyZDMzNjIwZjBmNmQ2OGRkNTBjZjNmOTM3MjQ3YjhiN2E2Yjk5ODlhZDIzMDk0ZDkxMTc3NjEyMjA0NGFhOWMiLCJ0YWciOiIifQ==<br/><br/></p></body>
+</html>  
+[2025-10-17 13:08:10] local.ERROR: Undefined variable $payment_id {"userId":7,"exception":"[object] (ErrorException(code: 0): Undefined variable $payment_id at F:\\xampp\\htdocs\\downgrade\\app\\Http\\Controllers\\ProductController.php:1528)
+[stacktrace]
+#0 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(258): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'Undefined varia...', 'F:\\\\xampp\\\\htdocs...', 1528)
+#1 F:\\xampp\\htdocs\\downgrade\\app\\Http\\Controllers\\ProductController.php(1528): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'Undefined varia...', 'F:\\\\xampp\\\\htdocs...', 1528)
+#2 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): DownGrade\\Http\\Controllers\\ProductController->stripe_success('eyJpdiI6IlZNbSs...', 'pi_1SJDAjDmtBy1...', Object(Illuminate\\Http\\Request))
+#3 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ControllerDispatcher.php(44): Illuminate\\Routing\\Controller->callAction('stripe_success', Array)
+#4 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(266): Illuminate\\Routing\\ControllerDispatcher->dispatch(Object(Illuminate\\Routing\\Route), Object(DownGrade\\Http\\Controllers\\ProductController), 'stripe_success')
+#5 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(212): Illuminate\\Routing\\Route->runController()
+#6 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(808): Illuminate\\Routing\\Route->run()
+#7 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(170): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#8 F:\\xampp\\htdocs\\downgrade\\app\\Http\\Middleware\\HtmlMinifier.php(20): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#9 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): DownGrade\\Http\\Middleware\\HtmlMinifier->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#10 F:\\xampp\\htdocs\\downgrade\\app\\Http\\Middleware\\XSS.php(24): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#11 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): DownGrade\\Http\\Middleware\\XSS->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#12 F:\\xampp\\htdocs\\downgrade\\app\\Http\\Middleware\\Localization.php(26): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#13 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): DownGrade\\Http\\Middleware\\Localization->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#14 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(51): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#15 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#16 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Auth\\Middleware\\Authenticate.php(64): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#17 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Auth\\Middleware\\Authenticate->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#18 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(88): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#19 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#20 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#21 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#22 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(121): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#23 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\Store), Object(Closure))
+#24 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#25 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#26 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#27 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(75): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#28 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#29 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(127): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#30 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(807): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#31 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(786): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#32 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(750): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#33 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(739): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#34 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(201): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#35 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(170): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#36 F:\\xampp\\htdocs\\downgrade\\app\\Http\\Middleware\\FrameHeadersMiddleware.php(20): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#37 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): DownGrade\\Http\\Middleware\\FrameHeadersMiddleware->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#38 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(58): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#39 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#40 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#41 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#42 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#43 F:\\xampp\\htdocs\\downgrade\\app\\Http\\Middleware\\CheckReferral.php(20): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#44 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): DownGrade\\Http\\Middleware\\CheckReferral->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#45 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#46 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(51): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#47 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#48 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#49 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#50 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(110): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#51 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#52 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(127): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#53 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(176): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#54 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(145): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#55 F:\\xampp\\htdocs\\downgrade\\index.php(53): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#56 {main}
+"} 
+[2025-10-17 13:08:37] local.DEBUG: From: customer <customer@gmail.com>
+To: downGrade <vasic98467@anyqx.com>
+Subject: Item Purchase Notifications
+MIME-Version: 1.0
+Date: Fri, 17 Oct 2025 13:08:37 +0000
+Message-ID: <dbbe748ed5b353f0e12610ef1f90f6af@gmail.com>
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Item Purchase Notifications</title>
+</head>
+<body class="preload dashboard-upload">
+<h3>Thank you for your order</h3>
+<p><strong>Buyer Details</strong>&nbsp;</p>
+<p>Name : customer</p>
+<p>Email : customer@gmail.com</p>
+<p><strong>Order Details</strong></p>
+<p>Order ID : #886661</p>
+<p>Amount : USD 9.5</p>
+<p>Download File : http://localhost/downgrade/download-file/eyJpdiI6Ijlkb2pSWWhTSjFCODZSWHN3UHdWZGc9PSIsInZhbHVlIjoiVVZWY2FmZG40YXQ5KzRKSXNiSU54VzJnR1ZWVzVaeFVuZjZUWm1XcFp0elFrUmxJN1VJdTh2bDBsRVhIYkdhWSIsIm1hYyI6ImY0YzE0MjZkZTM0NmQwZDE1MDM2NWU0NDJkNmM4Mzk0NDgyZWRmMDUyMGFhYTJhMTFmMjY4MGFkYTRhZjhkYzYiLCJ0YWciOiIifQ==<br/><br/></p></body>
+</html>  
+[2025-10-17 13:08:37] local.DEBUG: From: downGrade <vasic98467@anyqx.com>
+To: customer <customer@gmail.com>
+Subject: Item Purchase Notifications
+MIME-Version: 1.0
+Date: Fri, 17 Oct 2025 13:08:37 +0000
+Message-ID: <9745d51881f99dab73c04ed2b6e12f61@anyqx.com>
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Item Purchase Notifications</title>
+</head>
+<body class="preload dashboard-upload">
+<h3>Thank you for your order</h3>
+<p><strong>Buyer Details</strong>&nbsp;</p>
+<p>Name : customer</p>
+<p>Email : customer@gmail.com</p>
+<p><strong>Order Details</strong></p>
+<p>Order ID : #886661</p>
+<p>Amount : USD 9.5</p>
+<p>Download File : http://localhost/downgrade/download-file/eyJpdiI6Ijlkb2pSWWhTSjFCODZSWHN3UHdWZGc9PSIsInZhbHVlIjoiVVZWY2FmZG40YXQ5KzRKSXNiSU54VzJnR1ZWVzVaeFVuZjZUWm1XcFp0elFrUmxJN1VJdTh2bDBsRVhIYkdhWSIsIm1hYyI6ImY0YzE0MjZkZTM0NmQwZDE1MDM2NWU0NDJkNmM4Mzk0NDgyZWRmMDUyMGFhYTJhMTFmMjY4MGFkYTRhZjhkYzYiLCJ0YWciOiIifQ==<br/><br/></p></body>
+</html>  
+[2025-10-17 13:08:38] local.DEBUG: From: customer <customer@gmail.com>
+To: downGrade <vasic98467@anyqx.com>
+Subject: Item Purchase Notifications
+MIME-Version: 1.0
+Date: Fri, 17 Oct 2025 13:08:38 +0000
+Message-ID: <ad4aff58d470c399bf0cb3aeca19a268@gmail.com>
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Item Purchase Notifications</title>
+</head>
+<body class="preload dashboard-upload">
+<h3>Thank you for your order</h3>
+<p><strong>Buyer Details</strong>&nbsp;</p>
+<p>Name : customer</p>
+<p>Email : customer@gmail.com</p>
+<p><strong>Order Details</strong></p>
+<p>Order ID : #886661</p>
+<p>Amount : USD 9.5</p>
+<p>Download File : http://localhost/downgrade/download-file/eyJpdiI6IklxRFBNQUpWMWhPWnRqT29jQzRwQ2c9PSIsInZhbHVlIjoiRTdZWXgyQWoyZ2ZSMWJBckhGQk1rOHR5T1VKMWRsV01ISGE3WDdlcWVlQ1R0RmFUcmJmSFNWSWFFZnZVTVNwUiIsIm1hYyI6IjBmZTNmNDVmNzIyNWRkMjAzZmM1YTVlMTlmZTNiYmE4ZDhkNWI3ZTcyYjBmNTZhMjAzNDU5ZTUyOTlmMmRhMmQiLCJ0YWciOiIifQ==<br/><br/></p></body>
+</html>  
+[2025-10-17 13:08:38] local.DEBUG: From: downGrade <vasic98467@anyqx.com>
+To: customer <customer@gmail.com>
+Subject: Item Purchase Notifications
+MIME-Version: 1.0
+Date: Fri, 17 Oct 2025 13:08:38 +0000
+Message-ID: <68f7982fd62ff64e8ffda326b0b916fe@anyqx.com>
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Item Purchase Notifications</title>
+</head>
+<body class="preload dashboard-upload">
+<h3>Thank you for your order</h3>
+<p><strong>Buyer Details</strong>&nbsp;</p>
+<p>Name : customer</p>
+<p>Email : customer@gmail.com</p>
+<p><strong>Order Details</strong></p>
+<p>Order ID : #886661</p>
+<p>Amount : USD 9.5</p>
+<p>Download File : http://localhost/downgrade/download-file/eyJpdiI6IklxRFBNQUpWMWhPWnRqT29jQzRwQ2c9PSIsInZhbHVlIjoiRTdZWXgyQWoyZ2ZSMWJBckhGQk1rOHR5T1VKMWRsV01ISGE3WDdlcWVlQ1R0RmFUcmJmSFNWSWFFZnZVTVNwUiIsIm1hYyI6IjBmZTNmNDVmNzIyNWRkMjAzZmM1YTVlMTlmZTNiYmE4ZDhkNWI3ZTcyYjBmNTZhMjAzNDU5ZTUyOTlmMmRhMmQiLCJ0YWciOiIifQ==<br/><br/></p></body>
+</html>  
+[2025-10-17 13:15:01] local.DEBUG: From: customer <customer@gmail.com>
+To: downGrade <vasic98467@anyqx.com>
+Subject: Item Purchase Notifications
+MIME-Version: 1.0
+Date: Fri, 17 Oct 2025 13:15:01 +0000
+Message-ID: <ba46530edefd7ec68a390271b9ae995f@gmail.com>
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Item Purchase Notifications</title>
+</head>
+<body class="preload dashboard-upload">
+<h3>Thank you for your order</h3>
+<p><strong>Buyer Details</strong>&nbsp;</p>
+<p>Name : customer</p>
+<p>Email : customer@gmail.com</p>
+<p><strong>Order Details</strong></p>
+<p>Order ID : #225975</p>
+<p>Amount : USD 9.5</p>
+<p>Download File : http://localhost/downgrade/download-file/eyJpdiI6IkNYN0o3M1BRblRPYWZnMUtJVnc2U2c9PSIsInZhbHVlIjoiZjJoWHhkU1RwR1dkdS9Fd201bjNiT3M0VTlSUTBEQm9kSEYyb0V4S3V0Ti8wSTBnV05RcmQvVkN0QlBtQzM5USIsIm1hYyI6IjU5NmMxZGNkMzQzN2QwZGQ3NjhmNWFiMmU4ZDU3ZDNlOWExMTNmMDc0Nzk5ZjA1YzUyNjdhYjU0ZmRmZDFmMTAiLCJ0YWciOiIifQ==<br/><br/></p></body>
+</html>  
+[2025-10-17 13:15:01] local.DEBUG: From: downGrade <vasic98467@anyqx.com>
+To: customer <customer@gmail.com>
+Subject: Item Purchase Notifications
+MIME-Version: 1.0
+Date: Fri, 17 Oct 2025 13:15:01 +0000
+Message-ID: <f1056d899ff107628030cd48375af584@anyqx.com>
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Item Purchase Notifications</title>
+</head>
+<body class="preload dashboard-upload">
+<h3>Thank you for your order</h3>
+<p><strong>Buyer Details</strong>&nbsp;</p>
+<p>Name : customer</p>
+<p>Email : customer@gmail.com</p>
+<p><strong>Order Details</strong></p>
+<p>Order ID : #225975</p>
+<p>Amount : USD 9.5</p>
+<p>Download File : http://localhost/downgrade/download-file/eyJpdiI6IkNYN0o3M1BRblRPYWZnMUtJVnc2U2c9PSIsInZhbHVlIjoiZjJoWHhkU1RwR1dkdS9Fd201bjNiT3M0VTlSUTBEQm9kSEYyb0V4S3V0Ti8wSTBnV05RcmQvVkN0QlBtQzM5USIsIm1hYyI6IjU5NmMxZGNkMzQzN2QwZGQ3NjhmNWFiMmU4ZDU3ZDNlOWExMTNmMDc0Nzk5ZjA1YzUyNjdhYjU0ZmRmZDFmMTAiLCJ0YWciOiIifQ==<br/><br/></p></body>
+</html>  
+[2025-10-17 13:19:33] local.DEBUG: From: customer <customer@gmail.com>
+To: downGrade <vasic98467@anyqx.com>
+Subject: Item Purchase Notifications
+MIME-Version: 1.0
+Date: Fri, 17 Oct 2025 13:19:33 +0000
+Message-ID: <6205d1c36ba4c04a3292b5236e9e56ab@gmail.com>
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Item Purchase Notifications</title>
+</head>
+<body class="preload dashboard-upload">
+<h3>Thank you for your order</h3>
+<p><strong>Buyer Details</strong>&nbsp;</p>
+<p>Name : customer</p>
+<p>Email : customer@gmail.com</p>
+<p><strong>Order Details</strong></p>
+<p>Order ID : #475855</p>
+<p>Amount : USD 9.5</p>
+<p>Download File : http://localhost/downgrade/download-file/eyJpdiI6ImtPbXVRR2xpVllhd3dwbU5VKzg2d2c9PSIsInZhbHVlIjoidjl3aGlPc2kxVmpCckFzdHVDTUZraHJEVnNiWVk4TnlTdk9mNkdaM2Z2NE5zOEphdDRVQUZlakw2UGxoQmM1biIsIm1hYyI6IjE3N2EyN2Y4MTk5ZmE2MWU4NDJjNjQ3ZWIyMzg1ZWVlZjcwM2ZlYmQ0OWJlZjgxMWE2NmRhYzQ0YWRlNzE4NTkiLCJ0YWciOiIifQ==<br/><br/></p></body>
+</html>  
+[2025-10-17 13:19:33] local.DEBUG: From: downGrade <vasic98467@anyqx.com>
+To: customer <customer@gmail.com>
+Subject: Item Purchase Notifications
+MIME-Version: 1.0
+Date: Fri, 17 Oct 2025 13:19:33 +0000
+Message-ID: <d7975aceba1e75c5b454c85a58552911@anyqx.com>
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Item Purchase Notifications</title>
+</head>
+<body class="preload dashboard-upload">
+<h3>Thank you for your order</h3>
+<p><strong>Buyer Details</strong>&nbsp;</p>
+<p>Name : customer</p>
+<p>Email : customer@gmail.com</p>
+<p><strong>Order Details</strong></p>
+<p>Order ID : #475855</p>
+<p>Amount : USD 9.5</p>
+<p>Download File : http://localhost/downgrade/download-file/eyJpdiI6ImtPbXVRR2xpVllhd3dwbU5VKzg2d2c9PSIsInZhbHVlIjoidjl3aGlPc2kxVmpCckFzdHVDTUZraHJEVnNiWVk4TnlTdk9mNkdaM2Z2NE5zOEphdDRVQUZlakw2UGxoQmM1biIsIm1hYyI6IjE3N2EyN2Y4MTk5ZmE2MWU4NDJjNjQ3ZWIyMzg1ZWVlZjcwM2ZlYmQ0OWJlZjgxMWE2NmRhYzQ0YWRlNzE4NTkiLCJ0YWciOiIifQ==<br/><br/></p></body>
+</html>  
+[2025-10-17 13:19:35] local.ERROR: The payload is invalid. {"userId":7,"exception":"[object] (Illuminate\\Contracts\\Encryption\\DecryptException(code: 0): The payload is invalid. at F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Encryption\\Encrypter.php:245)
+[stacktrace]
+#0 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Encryption\\Encrypter.php(158): Illuminate\\Encryption\\Encrypter->getJsonPayload(NULL)
+#1 F:\\xampp\\htdocs\\downgrade\\app\\Http\\Controllers\\ProductController.php(1646): Illuminate\\Encryption\\Encrypter->decrypt('serviceworker.j...')
+#2 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): DownGrade\\Http\\Controllers\\ProductController->success_page_stripe('serviceworker.j...')
+#3 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ControllerDispatcher.php(44): Illuminate\\Routing\\Controller->callAction('success_page_st...', Array)
+#4 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(266): Illuminate\\Routing\\ControllerDispatcher->dispatch(Object(Illuminate\\Routing\\Route), Object(DownGrade\\Http\\Controllers\\ProductController), 'success_page_st...')
+#5 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(212): Illuminate\\Routing\\Route->runController()
+#6 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(808): Illuminate\\Routing\\Route->run()
+#7 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(170): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#8 F:\\xampp\\htdocs\\downgrade\\app\\Http\\Middleware\\HtmlMinifier.php(20): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#9 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): DownGrade\\Http\\Middleware\\HtmlMinifier->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#10 F:\\xampp\\htdocs\\downgrade\\app\\Http\\Middleware\\XSS.php(24): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#11 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): DownGrade\\Http\\Middleware\\XSS->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#12 F:\\xampp\\htdocs\\downgrade\\app\\Http\\Middleware\\Localization.php(26): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#13 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): DownGrade\\Http\\Middleware\\Localization->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#14 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(51): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#15 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#16 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Auth\\Middleware\\Authenticate.php(64): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#17 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Auth\\Middleware\\Authenticate->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#18 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(88): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#19 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#20 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#21 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#22 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(121): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#23 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\Store), Object(Closure))
+#24 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#25 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#26 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#27 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(75): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#28 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#29 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(127): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#30 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(807): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#31 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(786): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#32 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(750): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#33 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(739): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#34 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(201): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#35 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(170): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#36 F:\\xampp\\htdocs\\downgrade\\app\\Http\\Middleware\\FrameHeadersMiddleware.php(20): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#37 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): DownGrade\\Http\\Middleware\\FrameHeadersMiddleware->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#38 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(58): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#39 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#40 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#41 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#42 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#43 F:\\xampp\\htdocs\\downgrade\\app\\Http\\Middleware\\CheckReferral.php(20): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#44 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): DownGrade\\Http\\Middleware\\CheckReferral->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#45 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#46 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(51): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#47 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#48 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#49 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#50 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(110): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#51 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#52 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(127): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#53 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(176): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#54 F:\\xampp\\htdocs\\downgrade\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(145): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#55 F:\\xampp\\htdocs\\downgrade\\index.php(53): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#56 {main}
+"} 
